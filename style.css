@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
 }
 
 .hello {
@@ -69,4 +71,9 @@ a.hello:hover {
     margin: 30px;
     position: fixed;
     padding-left: 90%;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
 }
