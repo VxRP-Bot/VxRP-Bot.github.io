@@ -19,7 +19,7 @@ a.hello:hover {
     color: #e342db;
 }
 
-.gray {
+.rocket {
     background-image: url('images/space_vector.jpg');
     width: 100%;
     height: 800px;
@@ -36,5 +36,5 @@ a.hello:hover {
     font-family: 'Space Mono', sans-serif;
     opacity: 100%;
     color: #ffffff;
-    padding: 275px
+    padding: 270px
 }
