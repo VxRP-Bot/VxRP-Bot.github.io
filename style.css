@@ -10,16 +10,16 @@ body {
 
 .hello {
     position: fixed;
-    padding: 30px;
+    margin-left: 30px;
+    /* margin-top: 30px; */
     font-size: 275%;
     text-decoration: none;
     color: #ff009d;
     letter-spacing: 5px;
 }
 
-a.hello:hover {
+.hello:hover {
     color: #e342db;
-    transition-duration: 10ms;
 }
 
 .rocket {
@@ -29,7 +29,8 @@ a.hello:hover {
     background-size: 79%;
     border-radius: 20px;
     align-items: center;
-    max-width: 100%
+    max-width: 100%;
+
 }
 .rocket:hover {
     background-image: url('images/space_vector.jpg');
@@ -40,7 +41,7 @@ a.hello:hover {
     align-items: center;
     max-width: 100%;
     box-shadow: 10px 10px 20px #000;
-    transition-duration: 300ms
+    transition-duration: 300ms;
 }
 
 .future {
@@ -74,6 +75,17 @@ a.hello:hover {
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
+body::-webkit-scrollbar {   
     display: none;
+}
+
+.logging-deleted {
+    width: 50%;
+    height: auto;
+}
+
+.logging-def {
+    font-size: 150%;
+    float: right;
+    padding-top: 150px;
 }
