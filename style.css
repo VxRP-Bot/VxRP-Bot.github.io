@@ -17,6 +17,7 @@ body {
 
 a.hello:hover {
     color: #e342db;
+    transition-duration: 10ms;
 }
 
 .rocket {
