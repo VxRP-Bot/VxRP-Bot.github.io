@@ -9,7 +9,7 @@ body {
 .hello {
     position: fixed;
     padding: 30px;
-    font-size: 250%;
+    font-size: 275%;
     text-decoration: none;
     color: #ff009d;
     letter-spacing: 5px;
@@ -53,7 +53,9 @@ a.hello:hover {
 .features {
     background-color: #222222;
     color: white;
-    border-radius: 20px
+    border-radius: 20px;
+    padding: 50px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .features:hover {
@@ -61,10 +63,13 @@ a.hello:hover {
     color: white;
     border-radius: 20px;
     box-shadow: 10px 10px 20px #000;
-    transition-duration: 300ms
+    transition-duration: 300ms;
 }
 
-.what {
-    padding: 50px;
-    font-family: 'Poppins', sans-serif;
+.topgg {
+    margin: 30px;
+    position: fixed;
+    padding-left: 90%;
 }
+
+
