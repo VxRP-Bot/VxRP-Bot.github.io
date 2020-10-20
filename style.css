@@ -23,12 +23,22 @@ a.hello:hover {
 .rocket {
     background-image: url('images/space_vector.jpg');
     width: 100%;
-    height: 800px;
+    height: 850px;
     background-size: 79%;
-    background-attachment: fixed;
     border-radius: 20px;
     align-items: center;
     max-width: 100%
+}
+.rocket:hover {
+    background-image: url('images/space_vector.jpg');
+    width: 100%;
+    height: 850px;
+    background-size: 79%;
+    border-radius: 20px;
+    align-items: center;
+    max-width: 100%;
+    box-shadow: 10px 10px 20px #000;
+    transition-duration: 300ms
 }
 
 .future {
@@ -38,4 +48,23 @@ a.hello:hover {
     opacity: 100%;
     color: #ffffff;
     padding: 270px
+}
+
+.features {
+    background-color: #222222;
+    color: white;
+    border-radius: 20px
+}
+
+.features:hover {
+    background-color: #222222;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #000;
+    transition-duration: 300ms
+}
+
+.what {
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
 }
