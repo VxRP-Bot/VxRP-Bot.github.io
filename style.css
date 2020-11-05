@@ -15,6 +15,7 @@ body {
     text-decoration: none;
     color: #ff009d;
     letter-spacing: 5px;
+    transition: all 100ms ease-out;
 }
 
 .hello:hover {
@@ -29,7 +30,7 @@ body {
     border-radius: 20px;
     align-items: center;
     max-width: 100%;
-
+    transition: all 300ms ease-out;
 }
 .rocket:hover {
     background-image: url('images/space_vector.jpg');
@@ -58,6 +59,7 @@ body {
     border-radius: 20px;
     padding: 50px;
     font-family: 'Nunito', sans-serif;
+    transition: all 300ms ease-out;
 }
 
 .features:hover {
@@ -67,19 +69,7 @@ body {
     box-shadow: 10px 10px 20px #000;
     transition-duration: 300ms;
 }
-.servers {
-    margin: 30px;
-    position: fixed;
-    float: right;
-    padding-left: 90%;
-    padding: 0px
-}
 
-.upvotes {
-    margin: 30px;
-    position: fixed;
-    padding-left: 90%;
-}
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {   
@@ -104,9 +94,28 @@ body::-webkit-scrollbar {
     border-radius: 20px;
     padding: 50px;
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+    transition: all 300ms ease-out;
 }
 
 .plugins:hover {
+    background-color: #222222;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #000;
+    transition-duration: 300ms;
+}
+
+.logging {
+    background-color: #222222;
+    color: white;
+    border-radius: 20px;
+    padding: 50px;
+    font-family: 'Nunito', sans-serif;
+    transition: all 300ms ease-out;
+}
+
+.logging:hover {
     background-color: #222222;
     color: white;
     border-radius: 20px;
