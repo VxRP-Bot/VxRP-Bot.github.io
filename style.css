@@ -10,7 +10,7 @@ body {
 
 .hello {
     position: fixed;
-    margin-left: 30px;
+    margin: 30px;
     font-size: 275%;
     text-decoration: none;
     color: #ff009d;
@@ -67,10 +67,18 @@ body {
     box-shadow: 10px 10px 20px #000;
     transition-duration: 300ms;
 }
-.topgg {
-    margin: 0px;
+.servers {
+    margin: 30px;
     position: fixed;
-    padding-left: 92%;
+    float: right;
+    padding-left: 90%;
+    padding: 0px
+}
+
+.upvotes {
+    margin: 30px;
+    position: fixed;
+    padding-left: 90%;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -88,4 +96,20 @@ body::-webkit-scrollbar {
     float: right;
     padding-top: 150px;
     text-align: center
+}
+
+.plugins {
+    background-color: #222222;
+    color: white;
+    border-radius: 20px;
+    padding: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.plugins:hover {
+    background-color: #222222;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #000;
+    transition-duration: 300ms;
 }
