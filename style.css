@@ -123,3 +123,53 @@ body::-webkit-scrollbar {
     box-shadow: 10px 10px 20px #000;
     transition-duration: 300ms;
 }
+
+.rr {
+    background-color: #222222;
+    color: white;
+    border-radius: 20px;
+    padding: 50px;
+    font-family: 'Nunito', sans-serif;
+    transition: all 300ms ease-out;
+}
+
+.rr:hover {
+    background-color: #222222;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #000;
+    transition-duration: 300ms;
+}
+
+.custom-embed {
+    width: 50%;
+    height: auto
+}
+
+.embed {
+    font-size: 250%;
+    float: right;
+    padding-top: 150px;
+    text-align: right
+}
+
+.rr-title {
+    text-align:center;
+    font-size:250%;
+}
+
+.bigboi {
+    text-align:center;
+    font-size: 200%;
+}
+
+.message-and-channel {
+    padding-left: 43%;
+    width: 55%;
+    height: auto
+}
+
+.simple-rr {
+    font-size: 200%;
+    text-align: left
+}
