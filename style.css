@@ -164,12 +164,16 @@ body::-webkit-scrollbar {
 }
 
 .message-and-channel {
-    padding-left: 43%;
     width: 55%;
-    height: auto
+    height: auto;
 }
 
 .simple-rr {
-    font-size: 200%;
-    text-align: left
+    font-size: 100%;
+    text-align: left;
+    /* padding-top: 150px */
+}
+
+.message-channel {
+    text-align: right;
 }
