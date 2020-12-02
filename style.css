@@ -8,6 +8,10 @@ body {
     scrollbar-width: none; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hello {
     position: fixed;
     margin: 30px;
@@ -24,19 +28,16 @@ body {
 
 .rocket {
     background-image: url('images/space_vector.jpg');
-    width: 100%;
-    height: 850px;
-    background-size: 79%;
+    background-size: 100%;
     border-radius: 20px;
     align-items: center;
     max-width: 100%;
     transition: all 300ms ease-out;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .rocket:hover {
     background-image: url('images/space_vector.jpg');
-    width: 100%;
-    height: 850px;
-    background-size: 79%;
     border-radius: 20px;
     align-items: center;
     max-width: 100%;
@@ -171,7 +172,7 @@ body::-webkit-scrollbar {
 .simple-rr {
     font-size: 100%;
     text-align: left;
-    /* padding-top: 150px */
+    /* padding: 200px */
 }
 
 .message-channel {
